@@ -1,0 +1,41 @@
+@import url('index.css');
+
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 40px;
+    border-color: black;
+
+    text-align: center;
+}
+
+.tb_titulo{
+    width: 75%;
+}
+
+th{
+    background-color: #7a90FE;
+}
+
+
+tr:hover{
+    background-color: #b4c0fc;
+}
+
+.dados{
+    text-align:left;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:hover{
+    color: black;
+}
+
+a:active{
+    font-weight: bold;
+}
